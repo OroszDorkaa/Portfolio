@@ -1,0 +1,37 @@
+.menu {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
+	height: 50px;
+}
+
+.gomb {
+	display: grid;
+	background-color: rgb(124, 49, 49);
+	color: white;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+.gomb:hover {
+	background-color: beige;
+	color: black;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.cim{
+    display: grid;
+	background-image: url("hatterkep_jo.jpg");
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	font-size: xx-large;
+	padding-left: 10%;
+	color: white;
+	text-shadow: 4px 4px black;
+}

@@ -1,0 +1,40 @@
+.menu {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
+	height: 50px;
+}
+
+.gomb {
+	display: grid;
+	background-color: rgb(124, 49, 49);
+	color: white;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+.gomb:hover {
+	background-color: beige;
+	color: black;
+}
+
+body{
+    background-color: beige;
+}
+
+table {
+	border: 0.1875em solid black;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 0.0625em solid rgb(0, 0, 0);
+	padding: 10px;
+	text-align: center;
+}
+
+th {
+	border-bottom: 0.1875em solid black;
+	background-color: rgb(125, 42, 42);
+    text-align: center;
+}

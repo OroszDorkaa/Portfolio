@@ -1,0 +1,23 @@
+.menu {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
+	height: 50px;
+}
+
+.gomb {
+	display: grid;
+	background-color: rgb(124, 49, 49);
+	color: white;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+.gomb:hover {
+	background-color: beige;
+	color: black;
+}
+
+body{
+    background-color: beige;
+}
