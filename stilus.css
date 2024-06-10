@@ -1,7 +1,7 @@
 .menu {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto;
-	height: 50px;
+	height: 70%;
 }
 
 .gomb {
@@ -19,13 +19,13 @@
 }
 
 body{
-    background-color: burlywood;
+    background-color: beige;
 }
 
 .cim{
     display: grid;
 	background-image: url("hatterkep_jo.jpg");
-	height: 200px;
+	height: 12.5rem;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -33,5 +33,5 @@ body{
 	font-size: xx-large;
 	padding-left: 10%;
 	color: white;
-	text-shadow: 4px 4px black;
+	text-shadow: 0.25rem 0.25rem black;
 }

@@ -1,7 +1,7 @@
 .menu {
 	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto;
-	height: 50px;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	height: 70%;
 }
 
 .gomb {
@@ -25,4 +25,10 @@ body{
 .szoveg{
 	text-decoration: underline;
 	font-weight: bold;
+}
+article{
+	background-color: bisque;
+}
+img{
+	width: 50%; 
 }

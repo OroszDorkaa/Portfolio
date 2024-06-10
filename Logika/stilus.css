@@ -1,7 +1,7 @@
 .menu {
 	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto;
-	height: 50px;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	height: 70%;
 }
 
 .gomb {
@@ -20,4 +20,10 @@
 
 body{
     background-color: beige;
+}
+img{
+	width: 50%;
+}
+article{
+	background-color: bisque;
 }

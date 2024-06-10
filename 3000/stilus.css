@@ -1,7 +1,7 @@
 .menu {
 	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto;
-	height: 50px;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	height: 70%;
 }
 
 .gomb {
@@ -37,4 +37,7 @@ th {
 	border-bottom: 0.1875em solid black;
 	background-color: rgb(125, 42, 42);
     text-align: center;
+}
+img{
+	width: 90%;
 }
