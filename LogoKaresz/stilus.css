@@ -21,3 +21,8 @@
 body{
     background-color: beige;
 }
+
+.szoveg{
+	text-decoration: underline;
+	font-weight: bold;
+}
