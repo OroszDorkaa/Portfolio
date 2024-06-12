@@ -44,11 +44,20 @@ body{
 	
 }
 
-img{
+.kep_link{
 	border-radius: 20%;
-	width: 70%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+
+article{
+	background-color: bisque;
+	border-radius: 1em;
+	padding-left: 1em;
+}
+
+.kep{
+	
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OOPKaresz</title>
     <link rel="stylesheet" href="stilus.css">
+    <link rel="stylesheet" href="./../stilus.css">
 </head>
 <body>
     <header>
@@ -24,21 +25,41 @@
     <article>
         <h2>Először mintákat rajzoltunk.</h2>
         <figure>
-            <img src="OOPKaresz_haziko.png" alt="OOPKaresz_haziko_kep">
+            <img class = "kep" src="OOPKaresz_haziko.png" alt="OOPKaresz_haziko_kep">
             <figcaption>Ez egy házikó. Az hogy hány kerítést rajzolunk a paramétereivel változtatható.</figcaption>
         </figure>
     </article>
     <article>
         <h2>Utána labirintusokból kellett kijutnunk.</h2>
         <p>Ez egy kicsit nehezebb volt, mint a minták rajzolása.</p>
+        <figure>
+            <img class = "kep" src="OOPKaresz_labirintus.PNG" alt="OOPKaresz_labirintus_kep">
+            <figcaption>Itt az volt Karesz feladata, hogy összeszedje a fekete kavicsokat és amint ezt megtette, álljon meg.</figcaption>
+        </figure>
         
     </article>
     <article>
         <h2>És még ez is volt.</h2>
-        <figure>
-            <img src="OOPKaresz_palya28.png" alt="OOPKaresz_palya28_kep">
-            <figcaption>Itt az volt a feladat, hogy a sárga köveket körbe tegyük zöld kövekkel. Mintha egy virág lenne.</figcaption>
-        </figure>
+        <p>Itt az volt a feladat, hogy a sárga köveket körbe tegyük zöld kövekkel. Mintha egy virág lenne.</p>
+        <pre><code>        void Pálya28()
+            {
+                int bal = balra;
+                while (!Kilépek_e_a_pályáról())
+                {
+                    Lépj();
+                    if (Kilépek_e_a_pályáról())
+                    {
+                        Fordulj(bal);
+                        Lépj();
+                        Fordulj(bal);
+                        Lépj();
+                    }
+                    bal *= -1;
+                    Bekerítés(4);
+                }
+            }</code></pre>
+        <p>Így működött:</p>
+        <video src="OOPKaresz_hosszabb_jo.mp4" controls></video>
     </article>
 
 </body>
