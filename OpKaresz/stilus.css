@@ -26,10 +26,20 @@
 }
 
 body{
-    background-color: beige;
+    background-color: bisque;
 }
 
 video{
 	width: 50em;
 	height: 50em;
+}
+
+img{
+	width: 50%;
+}
+
+article{
+	background-color: bisque;
+	border-radius: 1em;
+	padding-left: 1em;
 }

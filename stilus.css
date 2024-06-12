@@ -14,10 +14,12 @@
 	align-items: center;
 	text-decoration: none;
 	transition-duration: 0.5s;
+	margin-bottom: none;
 }
 .gomb:hover {
 	background-color: beige;
 	color: black;
+	margin-bottom: none;
 }
 
 body{
@@ -27,7 +29,6 @@ body{
 .cim{
     display: grid;
 	background-image: url("hatterkep_jo.jpg");
-	height: 20%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -39,6 +40,8 @@ body{
 	font-family: "Kanit", sans-serif;
   	font-weight: 800;
   	font-style: normal;
+	margin-top: none;
+	
 }
 
 img{

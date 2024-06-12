@@ -13,20 +13,34 @@
 	align-items: center;
 	text-decoration: none;
 	transition-duration: 0.5s;
+	margin-bottom: none;
 }
 .gomb:hover {
 	background-color: beige;
 	color: black;
-}
-
-.cim{
-	font-family: "Kanit", sans-serif;
-	font-weight: 500;
-	font-style: italic;
+	margin-bottom: none;
 }
 
 body{
     background-color: beige;
+}
+
+.cim{
+    display: grid;
+	background-image: url("hatterkep_jo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	font-size: xx-large;
+	padding-left: 10%;
+	color: white;
+	text-shadow: 0.30rem 0.30rem black;
+	font-family: "Kanit", sans-serif;
+  	font-weight: 800;
+  	font-style: normal;
+	margin-top: none;
+	
 }
 
 .utinaplo{
